@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+        <h1>Stopwatch</h1>
         <div class="clock">
-            <input readonly class="hour">hours</input>
-            <input readonly class="minute">minutes</input>
-            <input readonly class="second">seconds</input>
-            <input readonly class="milsecond">miliseconds</input>
+            <input readonly class="hour">:</input>
+            <input readonly class="minute">:</input>
+            <input readonly class="second">:</input>
+            <input readonly class="milsecond"></input>
         </div>
         <div class="buttons">
             <button class="start" onclick="start()">Start</button>
             <button class="stop" onclick="stop()">Stop</button>
             <button class="reset" onclick="reset()">Reset</button>
+            <button class="mode" onclick="setMode()">Set timer to 1 minute stop</button>
         </div>
-    </div>
+    
 
     <script src="index.js"></script>
 </body>
